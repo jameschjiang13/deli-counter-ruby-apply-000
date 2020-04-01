@@ -27,3 +27,9 @@ def now_serving(current_customer_list)
     puts "There is nobody waiting to be served!"
   end
 end
+
+counter = 1
+def issue_number
+  puts "Welcome you are ticket number #{counter}."
+  counter += 1
+end
